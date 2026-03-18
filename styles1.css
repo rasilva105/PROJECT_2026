@@ -1,0 +1,65 @@
+.titulo-seccion {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #111;
+}
+
+.titulo-seccion h1 {
+    font-size: 40px;
+    color: #ff3c00;
+    margin-bottom: 10px;
+}
+
+.titulo-seccion p {
+    color: #ccc;
+}
+
+/* MENU */
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 50px;
+    background-color: #1a1a1a;
+}
+
+/* CARTA PRODUCTO */
+
+.card {
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(255, 60, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 15px 0 10px 0;
+    color: #ff3c00;
+}
+
+.card p {
+    padding: 0 15px;
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.precio {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
