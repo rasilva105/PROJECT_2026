@@ -82,8 +82,14 @@ body {
     background-color: #ff5722;
 }
 
-.hero-image {
-    width: 45%;
+.hero-image img {
+    max-width: 400%;
+    max-height: 650px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 1 auto;
 }
 
 .image-placeholder {
