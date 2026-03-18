@@ -89,7 +89,7 @@ body {
     height: auto;
     object-fit: contain;
     display: block;
-    margin: 1 auto;
+    margin: 0 auto;
 }
 
 .image-placeholder {
